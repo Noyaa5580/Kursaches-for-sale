@@ -1,0 +1,120 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Yeseva One";
+}
+
+/* header start */
+header {
+    margin-top: 40px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 75px;
+    width: calc(100% - 150px);
+}
+
+.menu {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    gap: 35px;
+}
+
+/* header end */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_name {
+    color: #5B853E;
+    font-size: 40px;
+    margin: 45px;
+}
+
+.catalog {
+    width: 1200px;
+    display: flex;
+    gap: 132px;
+    flex-wrap: wrap;
+}
+
+.product_card{
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 486px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.product_img {
+    margin-top: 30px;
+    width: 270px;
+    height: 270px;
+}
+
+.product_name{
+    font-size: 25px;
+}
+.price{
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+
+/* footer start */
+footer {
+    width: 100%;
+    height: 420px;
+    background-color: #5B853E;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_logo {
+    width: 270px;
+    height: 80px;
+}
+
+.work_time {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+    line-height: 48px;
+}
+
+.time {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+    line-height: 48px;
+}
+
+.contact_info {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}

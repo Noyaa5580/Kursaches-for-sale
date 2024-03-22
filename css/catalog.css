@@ -27,12 +27,20 @@ header {
 }
 
 
-a{text-decoration: none;
-color: black;}
-a:link :visited{
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link :visited {
     color: black;
     text-decoration: none;
 }
+
+.active {
+    color: #5B853E;
+}
+
 /* header end */
 main {
     display: flex;
@@ -53,7 +61,7 @@ main {
     flex-wrap: wrap;
 }
 
-.product_card{
+.product_card {
     background-color: #F3F3F3;
     width: 300px;
     height: 486px;
@@ -69,16 +77,17 @@ main {
     height: 270px;
 }
 
-.product_name{
+.product_name {
     font-size: 25px;
 }
-.price{
+
+.price {
     margin-top: 16px;
     font-size: 18px;
 }
 
 
-.buy_button{
+.buy_button {
     background-color: #83A453;
     border: 3px solid #5B853E;
     border-radius: 30px;
